@@ -5,7 +5,7 @@ pipeline{
         PATH = "/opt/maven3/bin:$PATH"
     }
     stages{
-        stage("Git Checkout"){
+        stage("Git Checkou"){
             steps{
                 git credentialsId: 'Git Checkout', url: 'https://github.com/vamshima/myweb.git'
             }
